@@ -1,7 +1,7 @@
 ﻿# TravelReco
 
 
-TravelReco is a lightweight static site that highlights curated travel recommendations. The current iteration fulfills the final project checklist with clear navigation, dedicated content pages, an introduction section, recommendation highlights, and a contact form so visitors can engage with the team.
+TravelReco is a lightweight static site that highlights curated travel recommendations.
 
 ## Features
 
@@ -27,5 +27,6 @@ TravelReco is a lightweight static site that highlights curated travel recommend
 1. Clone the repository: `git clone https://github.com/Deeksh022/TravelReco.git`
 2. Open `index.html` (or any page) in your browser for a static preview.
 3. For a simple HTTP server: `npx http-server` (from the project root) and navigate to the provided localhost URL.
+
 
 
