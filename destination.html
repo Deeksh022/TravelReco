@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Destinations - TravelReco</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TravelReco</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html" class="active">Destinations</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li class="profile-section">
+                    <a href="#" class="profile-link">
+                        <img src="https://ui-avatars.com/api/?name=User&background=3498db&color=fff" alt="Profile" class="profile-pic">
+                        <span>Profile</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="all-destinations">
+            <h1>All Destinations</h1>
+            <div class="filters">
+                <input type="text" id="search" placeholder="Search destinations...">
+                <select id="filter">
+                    <option value="all">All Categories</option>
+                    <option value="beach">Beach</option>
+                    <option value="mountain">Mountain</option>
+                    <option value="city">City</option>
+                </select>
+            </div>
+            <div id="destinations-container" class="destination-grid">
+                <!-- Filled by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 TravelReco. All rights reserved.</p>
+    </footer>
+
+    <!-- Profile Modal -->
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="profile-header">
+                <img src="https://ui-avatars.com/api/?name=John+Doe&background=3498db&color=fff" alt="Profile" class="profile-large">
+                <h2>John Doe</h2>
+                <p class="member-since">Member since: November 2025</p>
+            </div>
+            <div class="profile-details">
+                <div class="detail-item">
+                    <span class="detail-label">Email:</span>
+                    <span class="detail-value">john.doe@example.com</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Location:</span>
+                    <span class="detail-value">Bangalore, India</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Favorite Destinations:</span>
+                    <span class="detail-value" id="favorite-count">0</span>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <button class="btn btn-edit">Edit Profile</button>
+                <button class="btn btn-logout">Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>

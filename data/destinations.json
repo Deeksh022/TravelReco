@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Bali, Indonesia",
+        "location": "Indonesia",
+        "category": "beach",
+        "image": "https://source.unsplash.com/800x600/?bali",
+        "description": "Famous for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs."
+    },
+    {
+        "id": 2,
+        "name": "Santorini, Greece",
+        "location": "Greece",
+        "category": "beach",
+        "image": "https://source.unsplash.com/800x600/?santorini",
+        "description": "Known for its stunning sunsets, white-washed buildings, and crystal-clear waters."
+    },
+    {
+        "id": 3,
+        "name": "Swiss Alps",
+        "location": "Switzerland",
+        "category": "mountain",
+        "image": "https://source.unsplash.com/800x600/?swiss-alps",
+        "description": "Breathtaking mountain range known for skiing, hiking, and picturesque landscapes."
+    },
+    {
+        "id": 4,
+        "name": "Kyoto, Japan",
+        "location": "Japan",
+        "category": "city",
+        "image": "https://source.unsplash.com/800x600/?kyoto",
+        "description": "Famous for its numerous classical Buddhist temples, gardens, and traditional wooden houses."
+    },
+    {
+        "id": 5,
+        "name": "Paris, France",
+        "location": "France",
+        "category": "city",
+        "image": "https://source.unsplash.com/800x600/?paris",
+        "description": "The City of Light, famous for its art, fashion, gastronomy and culture."
+    },
+    {
+        "id": 6,
+        "name": "Banff National Park",
+        "location": "Canada",
+        "category": "mountain",
+        "image": "https://source.unsplash.com/800x600/?banff",
+        "description": "Canada's oldest national park, known for its turquoise lakes, mountains, and abundant wildlife."
+    },
+    {
+        "id": 7,
+        "name": "Maldives",
+        "location": "Indian Ocean",
+        "category": "beach",
+        "image": "https://source.unsplash.com/800x600/?maldives",
+        "description": "Tropical paradise with white sandy beaches, crystal-clear waters, and luxurious overwater bungalows."
+    },
+    {
+        "id": 8,
+        "name": "New York City, USA",
+        "location": "United States",
+        "category": "city",
+        "image": "https://source.unsplash.com/800x600/?new-york",
+        "description": "The city that never sleeps, known for its iconic skyline, Broadway shows, and diverse culture."
+    }
+]
