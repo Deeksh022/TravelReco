@@ -75,6 +75,77 @@ main {
     min-height: calc(100vh - 200px);
 }
 
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+/* Introduction Section */
+.intro {
+    background-color: var(--light-gray);
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.intro a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Recommendations */
+.recommendation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.recommendation-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-5px);
+}
+
+.recommendation-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.recommendation-card-content {
+    padding: 1.25rem;
+}
+
+.recommendation-card-content h3 {
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.recommendation-card-content p {
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.recommendation-card-content span {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
 /* Hero Section */
 .hero {
     text-align: center;
@@ -114,6 +185,115 @@ main {
 .btn:hover {
     background-color: #2980b9;
     transform: translateY(-2px);
+}
+
+/* Contact Form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.contact-form textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.about-summary,
+.about-grid,
+.contact-grid {
+    width: 100%;
+}
+
+.about-summary {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+    margin-bottom: 3rem;
+}
+
+.about-summary p {
+    line-height: 1.7;
+    color: #555;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.about-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.about-card h3 {
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.about-card p {
+    color: #666;
+}
+
+.github-cta {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.github-cta a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.contact-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.75rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.contact-card h3 {
+    margin-bottom: 0.75rem;
+    color: var(--secondary-color);
+}
+
+.contact-card p {
+    color: #555;
+    line-height: 1.6;
 }
 
 /* Destination Grid */
